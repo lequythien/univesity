@@ -1,0 +1,6 @@
+.login #logo img {
+    width: 300px; /* Điều chỉnh kích thước theo ý muốn */
+    height: auto;
+    background-image: url(../university/images/meowsalot.jpg);
+    background-size: cover;
+}

@@ -48,3 +48,10 @@ add_action('after_setup_theme', 'my_theme_setup');
 //   }
   
 //   add_action('init', 'university_post_types');
+
+
+// Thay đổi logo trang login
+function login_css() {
+    wp_enqueue_style( 'login_css', get_template_directory_uri() . './wp-content/themes/university/login.css' );
+}
+add_action('login_head', 'login_css');

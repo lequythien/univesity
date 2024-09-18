@@ -2,7 +2,6 @@
 get_header();
 ?>
 
-
 <?php
 while (have_posts()) :
     the_post();
@@ -13,15 +12,12 @@ while (have_posts()) :
     <div class="page-banner__content container container--narrow">
         <h1 class="page-banner__title"><?php the_title() ?></h1>
         <div class="page-banner__intro">
-            <p><?php
-                    // the_excerpt()
-                ?></p>
+            <p><?php // the_excerpt() ?></p>
         </div>
     </div>
 </div>
 
 <div class="container container--narrow page-section">
-
     <?php
         $parent_id = wp_get_post_parent_id(get_the_id());
         if ($parent_id) :

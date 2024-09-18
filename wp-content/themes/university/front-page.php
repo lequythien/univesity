@@ -15,20 +15,20 @@ get_header();
 </div>
 
 <?php
-$homepageEvents = new WP_Query(array(
-    'posts_per_page' => 2,
-    'post_type' => 'event',
-    'meta_key' => 'event_date',
-    'orderby' => 'meta_value',
-    'order' => 'ASC',
-    'meta_query' => array(
-        array(
-            'key' => 'event_date',
-            'compare' => '>=',
-            'type' => 'DATE'
+    $homepageEvents = new WP_Query(array(
+        'posts_per_page' => 2,
+        'post_type' => 'event', 
+        'meta_key' => 'star_day',
+        'orderby' => 'meta_value',
+        'order' => 'ASC',
+        'meta_query' => array(
+            array(
+                'key' => 'star_day',
+                'compare' => '>=',
+                'type' => 'DATE'
+            )
         )
-    )
-));
+    ));
 ?>
 
 <div class="full-width-split group">
@@ -52,7 +52,7 @@ $homepageEvents = new WP_Query(array(
                                 <?php the_title(); ?>
                             </a>
                         </h5>
-                        <p><?php echo wp_trim_words(get_the_content(), 18); ?> 
+                        <p><?php echo wp_trim_words(get_the_content(), 15); ?> 
                             <a href="<?php echo esc_url(get_the_permalink()); ?>" class="nu gray">Learn more</a>
                         </p>
                     </div>
@@ -86,7 +86,7 @@ $homepageEvents = new WP_Query(array(
                         </a>
                         <div class="event-summary__content">
                             <h5 class="event-summary__title headline headline--tiny"><a href="<?php echo esc_url(get_the_permalink()); ?>"><?php the_title(); ?></a></h5>
-                            <p><?php echo wp_trim_words(get_the_excerpt(), 18); ?> <a href="<?php echo esc_url(get_the_permalink()); ?>" class="nu gray">Read more</a></p>
+                            <p><?php echo wp_trim_words(get_the_excerpt(), 15); ?> <a href="<?php echo esc_url(get_the_permalink()); ?>" class="nu gray">Read more</a></p>
                         </div>
                     </div>
             <?php }
@@ -120,7 +120,7 @@ $homepageEvents = new WP_Query(array(
                         <div class="hero-slider__interior container">
                             <div class="hero-slider__overlay">
                                 <h2 class="headline headline--medium t-center"><?php the_title(); ?></h2>
-                                <p class="t-center"><?php echo wp_trim_words(get_the_excerpt(), 18); ?></p>
+                                <p class="t-center"><?php echo wp_trim_words(get_the_excerpt(), 15); ?></p>
                                 <p class="t-center no-margin"><a href="<?php echo esc_url(get_the_permalink()); ?>" class="btn btn--blue">Learn more</a></p>
                             </div>
                         </div>
