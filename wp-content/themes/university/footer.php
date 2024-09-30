@@ -23,17 +23,20 @@
 
                 <div class="site-footer__col-three">
                     <h3 class="headline headline--small">Learn</h3>
-                    <nav class="nav-list">
+                    <!-- <nav class="nav-list">
                         <ul>
-                            <?php
-                                wp_nav_menu(array(
-                                    'theme_location' => 'footer_menu_2',
-                                    'container'            => 'nav',
-                                    'container_class'      => 'nav-list',
-                                ));
-                            ?>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Careers</a></li>
                         </ul>
-                    </nav>
+                    </nav> -->
+                    <?php
+                    wp_nav_menu(array(
+                        'theme_location' => 'footer_menu_2',
+                        'container'            => 'nav',
+                        'container_class'      => 'nav-list',
+                    ));
+                    ?>
                 </div>
             </div>
 
@@ -42,7 +45,7 @@
                 <nav>
                     <ul class="min-list social-icons-list group">
                         <li>
-                            <a href="https://www.facebook.com/quythien.le.50" class="social-color-facebook"><i class="fa fa-facebook"
+                            <a href="#" class="social-color-facebook"><i class="fa fa-facebook"
                                     aria-hidden="true"></i></a>
                         </li>
                         <li>
@@ -50,7 +53,7 @@
                                     aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/@gdpttaythanh" class="social-color-youtube"><i class="fa fa-youtube"
+                            <a href="#" class="social-color-youtube"><i class="fa fa-youtube"
                                     aria-hidden="true"></i></a>
                         </li>
                         <li>
@@ -58,7 +61,7 @@
                                     aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/crew_1606/?fbclid=IwY2xjawFPIoRleHRuA2FlbQIxMAABHfyVm8NdKo9em1L21xsVr5M5YACLpjUMkWQI5vil2B8R4Jj8-DJVlMm2rQ_aem_kynYA1dqHJ1tkYBWYMfgKQ" class="social-color-instagram"><i class="fa fa-instagram"
+                            <a href="#" class="social-color-instagram"><i class="fa fa-instagram"
                                     aria-hidden="true"></i></a>
                         </li>
                     </ul>
