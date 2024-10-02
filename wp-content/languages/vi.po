@@ -2,7 +2,11 @@
 # This file is distributed under the same license as the WordPress - 6.6.x - Development package.
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-09 10:12:41+0000\n"
+=======
+"PO-Revision-Date: 2024-09-23 02:50:42+0000\n"
+>>>>>>> 7e57a7c (first commit)
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -166,37 +170,61 @@ msgstr ","
 #: wp-includes/class-wp-locale.php:154
 #, gp-priority: high
 msgid "Saturday"
+<<<<<<< HEAD
 msgstr "Thứ Bảy"
+=======
+msgstr "Thứ bảy"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Weekday.
 #: wp-includes/class-wp-locale.php:153
 #, gp-priority: high
 msgid "Friday"
+<<<<<<< HEAD
 msgstr "Thứ Sáu"
+=======
+msgstr "Thứ sáu"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Weekday.
 #: wp-includes/class-wp-locale.php:152
 #, gp-priority: high
 msgid "Thursday"
+<<<<<<< HEAD
 msgstr "Thứ Năm"
+=======
+msgstr "Thứ năm"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Weekday.
 #: wp-includes/class-wp-locale.php:151
 #, gp-priority: high
 msgid "Wednesday"
+<<<<<<< HEAD
 msgstr "Thứ Tư"
+=======
+msgstr "Thứ tư"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Weekday.
 #: wp-includes/class-wp-locale.php:150
 #, gp-priority: high
 msgid "Tuesday"
+<<<<<<< HEAD
 msgstr "Thứ Ba"
+=======
+msgstr "Thứ ba"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Weekday.
 #: wp-includes/class-wp-locale.php:149
 #, gp-priority: high
 msgid "Monday"
+<<<<<<< HEAD
 msgstr "Thứ Hai"
+=======
+msgstr "Thứ hai"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Weekday.
 #: wp-includes/class-wp-locale.php:148
@@ -208,67 +236,111 @@ msgstr "Chủ Nhật"
 #: wp-includes/class-wp-locale.php:186 wp-includes/js/dist/components.js:57242
 #, gp-priority: high
 msgid "December"
+<<<<<<< HEAD
 msgstr "Tháng Mười Hai"
+=======
+msgstr "Tháng mười hai"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Month name.
 #: wp-includes/class-wp-locale.php:185 wp-includes/js/dist/components.js:57239
 #, gp-priority: high
 msgid "November"
+<<<<<<< HEAD
 msgstr "Tháng Mười Một"
+=======
+msgstr "Tháng mười một"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Month name.
 #: wp-includes/class-wp-locale.php:184 wp-includes/js/dist/components.js:57236
 #, gp-priority: high
 msgid "October"
+<<<<<<< HEAD
 msgstr "Tháng Mười"
+=======
+msgstr "Tháng mười"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Month name.
 #: wp-includes/class-wp-locale.php:183 wp-includes/js/dist/components.js:57233
 #, gp-priority: high
 msgid "September"
+<<<<<<< HEAD
 msgstr "Tháng Chín"
+=======
+msgstr "Tháng chín"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Month name.
 #: wp-includes/class-wp-locale.php:182 wp-includes/js/dist/components.js:57230
 #, gp-priority: high
 msgid "August"
+<<<<<<< HEAD
 msgstr "Tháng Tám"
+=======
+msgstr "Tháng tám"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Month name.
 #: wp-includes/class-wp-locale.php:181 wp-includes/js/dist/components.js:57227
 #, gp-priority: high
 msgid "July"
+<<<<<<< HEAD
 msgstr "Tháng Bảy"
+=======
+msgstr "Tháng bảy"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Month name.
 #: wp-includes/class-wp-locale.php:180 wp-includes/js/dist/components.js:57224
 #, gp-priority: high
 msgid "June"
+<<<<<<< HEAD
 msgstr "Tháng Sáu"
+=======
+msgstr "Tháng sáu"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Month name.
 #: wp-includes/class-wp-locale.php:179 wp-includes/js/dist/components.js:57221
 #, gp-priority: high
 msgid "May"
+<<<<<<< HEAD
 msgstr "Tháng Năm"
+=======
+msgstr "Tháng năm"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Month name.
 #: wp-includes/class-wp-locale.php:178 wp-includes/js/dist/components.js:57218
 #, gp-priority: high
 msgid "April"
+<<<<<<< HEAD
 msgstr "Tháng Tư"
+=======
+msgstr "Tháng tư"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Month name.
 #: wp-includes/class-wp-locale.php:177 wp-includes/js/dist/components.js:57215
 #, gp-priority: high
 msgid "March"
+<<<<<<< HEAD
 msgstr "Tháng Ba"
+=======
+msgstr "Tháng ba"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Month name.
 #: wp-includes/class-wp-locale.php:176 wp-includes/js/dist/components.js:57212
 #, gp-priority: high
 msgid "February"
+<<<<<<< HEAD
 msgstr "Tháng Hai"
+=======
+msgstr "Tháng hai"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Month name.
 #: wp-includes/class-wp-locale.php:175 wp-includes/js/dist/components.js:57209
@@ -298,7 +370,11 @@ msgid "Disable"
 msgstr "Tắt"
 
 #: wp-includes/js/dist/patterns.js:372 wp-includes/js/dist/patterns.js:1451
+<<<<<<< HEAD
 #: wp-admin/about.php:135
+=======
+#: wp-admin/about.php:160
+>>>>>>> 7e57a7c (first commit)
 msgid "Overrides"
 msgstr "Ghi đè"
 
@@ -1142,7 +1218,11 @@ msgstr "Ghi đè mẫu"
 #: wp-includes/blocks/post-date/block.json
 msgctxt "block description"
 msgid "Display the publish date for an entry such as a post or page."
+<<<<<<< HEAD
 msgstr "Hiển thị ngày đăng cho một mục như một bài viết hoặc trang."
+=======
+msgstr "Hiển thị ngày xuất bản cho một mục như một bài viết hoặc trang."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/blocks/post-date/block.json
 msgctxt "block title"
@@ -1283,7 +1363,11 @@ msgstr "Xem tệp media"
 #: wp-includes/post.php:78 wp-admin/menu.php:68 wp-admin/upload.php:215
 #: wp-admin/upload.php:422
 msgid "Add New Media File"
+<<<<<<< HEAD
 msgstr "Thêm tệp media mới"
+=======
+msgstr "Thêm tệp mới"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/meta.php:1473
 msgid "Meta keys cannot enable revisions support unless the object subtype supports revisions."
@@ -1499,7 +1583,11 @@ msgstr "Cha"
 
 #: wp-includes/js/dist/edit-site.js:38036 wp-admin/includes/dashboard.php:2129
 msgid "Edit styles"
+<<<<<<< HEAD
 msgstr "Chỉnh sửa kiểu"
+=======
+msgstr "Sửa kiểu hiển thị"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/blocks/footnotes.php:123
 #: wp-includes/js/dist/block-library.js:63152
@@ -1567,11 +1655,19 @@ msgstr "Mẫu đã được hoàn nguyên về bản nháp."
 
 #: wp-includes/post.php:301
 msgid "Pattern published privately."
+<<<<<<< HEAD
 msgstr "Mẫu đã được đăng một cách riêng tư."
 
 #: wp-includes/post.php:300
 msgid "Pattern published."
 msgstr "Mẫu đã được đăng."
+=======
+msgstr "Mẫu đã được xuất bản một cách riêng tư."
+
+#: wp-includes/post.php:300
+msgid "Pattern published."
+msgstr "Mẫu đã được xuất bản."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/post.php:298
 msgid "Patterns list navigation"
@@ -1924,7 +2020,11 @@ msgstr "Mô tả danh mục, dưới dạng dễ đọc của con người."
 #: wp-admin/includes/class-wp-media-list-table.php:837
 #: wp-admin/includes/media.php:3372
 msgid "Download file"
+<<<<<<< HEAD
 msgstr "Tải tệp tin"
+=======
+msgstr "Tải về tệp tin"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: %s: mysqli.
 #: wp-includes/load.php:184
@@ -2539,7 +2639,11 @@ msgstr "Liên kết trả lời bình luận"
 #: wp-includes/blocks/comment-edit-link/block.json
 msgctxt "block description"
 msgid "Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability."
+<<<<<<< HEAD
 msgstr "Hiển thị liên kết để chỉnh sửa bình luận trong Trang tổng quan WordPress. Liên kết này chỉ hiển thị cho người dùng có khả năng chỉnh sửa bình luận."
+=======
+msgstr "Hiển thị liên kết để chỉnh sửa bình luận trong trang quản trị WordPress. Liên kết này chỉ hiển thị cho người dùng có khả năng chỉnh sửa bình luận."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/blocks/comment-edit-link/block.json
 msgctxt "block title"
@@ -3096,7 +3200,11 @@ msgstr "Máy chủ không thể xử lý hình ảnh. Điều này có thể x�
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1603
 msgid "Limit result set to users who have published posts."
+<<<<<<< HEAD
 msgstr "Giới hạn kết quả được đặt cho những người dùng đã từng đăng bài."
+=======
+msgstr "Giới hạn kết quả được đặt cho những người dùng đã từng xuất bản bài."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1587
 msgid "Limit result set to users matching at least one specific capability provided. Accepts csv list or single capability."
@@ -3806,7 +3914,11 @@ msgstr "GUID cho bài viết, như đã tồn tại trong cơ sở dữ liệu."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2256
 msgid "The date the post was published, in the site's timezone."
+<<<<<<< HEAD
 msgstr "Ngày bài viết được đăng, theo múi giờ của trang web."
+=======
+msgstr "Ngày bài viết được xuất bản, theo múi giờ của trang web."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1483
 msgid "The ID for the parent of the comment."
@@ -3814,7 +3926,11 @@ msgstr "ID cha của bình luận."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1464
 msgid "The date the comment was published, in the site's timezone."
+<<<<<<< HEAD
 msgstr "Ngày bình luận được đăng, theo múi giờ của trang web."
+=======
+msgstr "Ngày bình luận được xuất bản, theo múi giờ của trang web."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1456
 msgid "HTML content for the comment, transformed for display."
@@ -5125,7 +5241,11 @@ msgstr "Thiết kế"
 #: wp-includes/block-editor.php:27
 msgctxt "block category"
 msgid "Media"
+<<<<<<< HEAD
 msgstr "Media"
+=======
+msgstr "Chọn từ thư viện Media"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/block-editor.php:22
 msgctxt "block category"
@@ -5696,7 +5816,11 @@ msgstr "Cần có tên ứng dụng để tạo mật khẩu ứng dụng."
 #: wp-includes/media-template.php:552 wp-includes/media-template.php:800
 #: wp-admin/async-upload.php:77 wp-admin/includes/media.php:3367
 msgid "Copy URL to clipboard"
+<<<<<<< HEAD
 msgstr "Sao chép URL vào bộ nhớ tạm"
+=======
+msgstr "Sao chép liên kết"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/media-template.php:502 wp-includes/media-template.php:739
 msgid "Used as:"
@@ -6197,13 +6321,21 @@ msgstr "Tên mẫu phải là một chuỗi."
 
 #: wp-includes/media.php:4841
 msgid "Attachment details"
+<<<<<<< HEAD
 msgstr "Chi tiết đính kèm"
+=======
+msgstr "Chi tiết tệp đính kèm"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/media.php:4786 wp-includes/media.php:4808
 #: wp-includes/js/dist/block-library.js:21106
 #: wp-includes/js/dist/block-library.js:53351
 msgid "Add media"
+<<<<<<< HEAD
 msgstr "Thêm media"
+=======
+msgstr "Thêm tệp media"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/post.php:4635
 msgid "Could not insert attachment into the database."
@@ -6216,7 +6348,11 @@ msgstr "Không thể cập nhật bình luận trong cơ sở dữ liệu."
 #: wp-includes/media-template.php:549 wp-includes/media-template.php:797
 #: wp-admin/includes/media.php:3364
 msgid "File URL:"
+<<<<<<< HEAD
 msgstr "File URL:"
+=======
+msgstr "Liên kết của tệp tin:"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: %s: The name of a JSON field expecting a valid UUID.
 #: wp-includes/rest-api.php:2252
@@ -6375,11 +6511,19 @@ msgstr "Tài khoản WordPress.org của tác giả khối."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:266
 msgid "The number of blocks published by the same author."
+<<<<<<< HEAD
 msgstr "Số lượng các khối được đăng bởi cùng tác giả."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:261
 msgid "The average rating of blocks published by the same author."
 msgstr "Xếp hạng trung bình của các khối được đăng bởi cùng tác giả."
+=======
+msgstr "Số lượng các khối được xuất bản bởi cùng tác giả."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:261
+msgid "The average rating of blocks published by the same author."
+msgstr "Xếp hạng trung bình của các khối được xuất bản bởi cùng tác giả."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:256
 msgid "The number sites that have activated this block."
@@ -7004,7 +7148,11 @@ msgstr "Hết hạn"
 
 #: wp-includes/user.php:4001
 msgid "User&#8217;s location data used for the Community Events in the WordPress Events and News dashboard widget."
+<<<<<<< HEAD
 msgstr "User&#8217;s dữ liệu vị trí được sử dụng cho Sự kiện cộng đồng trong tiện ích bảng điều khiển Tin tức và sự kiện WordPress."
+=======
+msgstr "User&#8217;s dữ liệu vị trí được sử dụng cho sự kiện cộng đồng trong tiện ích trang quản trị tin tức và sự kiện WordPress."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/user.php:4000
 msgid "Community Events Location"
@@ -7570,7 +7718,11 @@ msgstr ""
 "\n"
 "###SUPPORT###\n"
 "\n"
+<<<<<<< HEAD
 "Nếu trang web của bạn xuất hiện bị hỏng và bạn không thể truy cập bảng điều khiển bình thường, WordPress hiện có một chế độ “phục hồi” đặc biệt. Điều này cho phép bạn an toàn đăng nhập vào bảng điều khiển và điều tra thêm.\n"
+=======
+"Nếu trang web của bạn xuất hiện bị hỏng và bạn không thể truy cập trang quản trị bình thường, WordPress hiện có một chế độ “phục hồi” đặc biệt. Điều này cho phép bạn an toàn đăng nhập vào trang quản trị và điều tra thêm.\n"
+>>>>>>> 7e57a7c (first commit)
 "\n"
 "###LINK###\n"
 "\n"
@@ -8323,6 +8475,7 @@ msgstr "Đã chuyển bài viết thành bản nháp."
 
 #: wp-includes/class-wp-post-type.php:1000
 msgid "Page published privately."
+<<<<<<< HEAD
 msgstr "Trang đã được đăng riêng tư."
 
 #: wp-includes/class-wp-post-type.php:1000
@@ -8336,6 +8489,21 @@ msgstr "Trang đã được đăng."
 #: wp-includes/class-wp-post-type.php:999 wp-admin/edit-form-advanced.php:188
 msgid "Post published."
 msgstr "Bài viết đã được đăng."
+=======
+msgstr "Trang đã được xuất bản riêng tư."
+
+#: wp-includes/class-wp-post-type.php:1000
+msgid "Post published privately."
+msgstr "Bài viết đã được xuất bản riêng tư."
+
+#: wp-includes/class-wp-post-type.php:999 wp-admin/edit-form-advanced.php:203
+msgid "Page published."
+msgstr "Trang đã được Xuất bản."
+
+#: wp-includes/class-wp-post-type.php:999 wp-admin/edit-form-advanced.php:188
+msgid "Post published."
+msgstr "Bài viết đã được Xuất bản."
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: %s: Block name.
 #: wp-includes/class-wp-block-type-registry.php:120
@@ -8408,7 +8576,11 @@ msgstr "Người dùng hiện tại này có thể ghim bài viết nổi bật.
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2695
 msgid "The current user can publish this post."
+<<<<<<< HEAD
 msgstr "Người dùng hiện tại có thể đăng bài viết này."
+=======
+msgstr "Người dùng hiện tại có thể Xuất bản bài viết này."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1407
 #: wp-admin/includes/ms.php:45
@@ -9092,7 +9264,11 @@ msgstr "&larr; Đi đến Danh mục liên kết"
 
 #: wp-includes/script-loader.php:1328
 msgid "Sorry, you cannot preview new themes when you have changes scheduled or saved as a draft. Please publish your changes, or wait until they publish to preview new themes."
+<<<<<<< HEAD
 msgstr "Xin lỗi, bạn không thể xem trước các giao diện mới khi bạn có các thay đổi đã lên lịch hoặc đã lưu dưới dạng bản nháp. Vui lòng xuất bản các thay đổi của bạn, hoặc đợi cho đến khi chúng được đăng để xem trước các giao diện mới."
+=======
+msgstr "Xin lỗi, bạn không thể xem trước các giao diện mới khi bạn có các thay đổi đã lên lịch hoặc đã lưu dưới dạng bản nháp. Vui lòng xuất bản các thay đổi của bạn, hoặc đợi cho đến khi chúng được Xuất bản để xem trước các giao diện mới."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/script-loader.php:1327
 msgid "Schedule your customization changes to publish (\"go live\") at a future date."
@@ -9962,7 +10138,11 @@ msgstr "Thêm vào tiện ích"
 #: wp-includes/widgets/class-wp-widget-media.php:501
 msgctxt "label for button in the media widget; should preferably not be longer than ~13 characters long"
 msgid "Edit Media"
+<<<<<<< HEAD
 msgstr "Chỉnh sửa Media"
+=======
+msgstr "Chỉnh sửa media"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/widgets/class-wp-widget-media.php:500
 msgctxt "label for button in the media widget; should preferably not be longer than ~13 characters long"
@@ -10355,11 +10535,19 @@ msgstr "Định danh chữ và số cho trạng thái."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1584
 msgid "Limit response to comments published before a given ISO8601 compliant date."
+<<<<<<< HEAD
 msgstr "Giới hạn những bình luận đăng trước ngày tiêu chuẩn ISO8601"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1555
 msgid "Limit response to comments published after a given ISO8601 compliant date."
 msgstr "Giới hạn những bình luận đăng sau ngày tiêu chuẩn ISO8601"
+=======
+msgstr "Giới hạn những bình luận Xuất bản trước ngày tiêu chuẩn ISO8601"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1555
+msgid "Limit response to comments published after a given ISO8601 compliant date."
+msgstr "Giới hạn những bình luận Xuất bản sau ngày tiêu chuẩn ISO8601"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1497
 msgid "Avatar URLs for the user."
@@ -10825,7 +11013,11 @@ msgstr "Tìm kiếm"
 #: wp-includes/theme.php:2303
 msgctxt "Theme starter content"
 msgid "Saturday &amp; Sunday: 11:00AM&ndash;3:00PM"
+<<<<<<< HEAD
 msgstr "Thứ bảy và Chủ nhật: 11:00AM - 3:00PM"
+=======
+msgstr "Thứ bảy và chủ nhật: 11:00AM - 3:00PM"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/theme.php:2302
 msgctxt "Theme starter content"
@@ -11140,7 +11332,11 @@ msgstr "Mô tả HTML cho tài nguyên."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1026
 msgid "Number of published posts for the term."
+<<<<<<< HEAD
 msgstr "Số bài viết được đăng cho tài nguyên."
+=======
+msgstr "Số bài viết được Xuất bản cho tài nguyên."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:83
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1357
@@ -11519,7 +11715,11 @@ msgstr "Chắc chắn kết quả loại trừ những ID cố định."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2851
 msgid "Limit response to posts published before a given ISO8601 compliant date."
+<<<<<<< HEAD
 msgstr "Giới hạn phản hồi chỉ cho các bài viết được đăng trước một ngày theo định dạng ISO8601."
+=======
+msgstr "Giới hạn phản hồi chỉ cho các bài viết được Xuất bản trước một ngày theo định dạng ISO8601."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1578
 msgid "Limit result set to that from a specific author email. Requires authorization."
@@ -11535,7 +11735,11 @@ msgstr "Giới hạn kết quả chỉ gồm những bình luận của một s�
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2820
 msgid "Limit response to posts published after a given ISO8601 compliant date."
+<<<<<<< HEAD
 msgstr "Giới hạn phản hồi chỉ cho các bài viết được đăng sau một ngày theo định dạng ISO8601."
+=======
+msgstr "Giới hạn phản hồi chỉ cho các bài viết được Xuất bản sau một ngày theo định dạng ISO8601."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1527
 msgid "Avatar URLs for the comment author."
@@ -12155,7 +12359,11 @@ msgstr "Extension XML trong PHP không khả dụng. Vui lòng liên hệ với 
 #. translators: %s: Current user's display name.
 #: wp-includes/admin-bar.php:280 wp-includes/admin-bar.php:292
 msgid "Howdy, %s"
+<<<<<<< HEAD
 msgstr "Chào, %s"
+=======
+msgstr "Xin chào, %s"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Hidden accessibility text.
 #: wp-includes/customize/class-wp-customize-nav-menu-location-control.php:86
@@ -12410,7 +12618,11 @@ msgstr "Yêu cầu phải có %s để bỏ dữ liệu meta của ảnh."
 
 #: wp-includes/media.php:4837
 msgid "No media items found."
+<<<<<<< HEAD
 msgstr "Không tìm thấy file media nào."
+=======
+msgstr "Không tìm thấy tệp media nào."
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: 1: Post title, 2: Site title.
 #: wp-includes/embed.php:505
@@ -12501,7 +12713,11 @@ msgstr "Lên kế hoạch"
 #: wp-includes/post.php:643
 msgctxt "post status"
 msgid "Published"
+<<<<<<< HEAD
 msgstr "Đã đăng"
+=======
+msgstr "Đã xuất bản"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/post-template.php:1774
 msgctxt "post password form"
@@ -13165,7 +13381,11 @@ msgstr "Các bình luận trước"
 #. translators: Post calendar label. %s: Date.
 #: wp-includes/general-template.php:2403
 msgid "Posts published on %s"
+<<<<<<< HEAD
 msgstr "Các bài viết đã được đăng vào %s"
+=======
+msgstr "Các bài viết đã được Xuất bản vào %s"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: %s: 'document_title_separator' filter name.
 #: wp-includes/feed.php:106 wp-includes/feed.php:132
@@ -13718,7 +13938,11 @@ msgstr[0] "Giao diện của bạn có %s vị trí trình đơn. Chọn trình 
 
 #: wp-includes/class-wp-customize-nav-menus.php:655
 msgid "This panel is used for managing navigation menus for content you have already published on your site. You can create menus and add items for existing content such as pages, posts, categories, tags, formats, or custom links."
+<<<<<<< HEAD
 msgstr "Bảng điều khiển này được sử dụng để quản lý các menu cho nội dung mà bạn đã đăng trên trang web. Bạn có thể tạo các menu và thêm các mục cho nội dung hiện có như các trang, bài viết, danh mục, tag, định dạng, hoặc liên kết riêng."
+=======
+msgstr "Bảng điều khiển này được sử dụng để quản lý các menu cho nội dung mà bạn đã Xuất bản trên trang web. Bạn có thể tạo các menu và thêm các mục cho nội dung hiện có như các trang, bài viết, danh mục, tag, định dạng, hoặc liên kết riêng."
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: %s: Previous item name.
 #: wp-includes/class-wp-customize-nav-menus.php:564 wp-admin/nav-menus.php:582
@@ -13883,7 +14107,11 @@ msgstr "Thêm mục"
 #. translators: User dashboard screen title. %s: Network title.
 #: wp-includes/admin-bar.php:388 wp-admin/admin-header.php:43
 msgid "User Dashboard: %s"
+<<<<<<< HEAD
 msgstr "Bảng điều khiển người dùng: %s"
+=======
+msgstr "Trang quản trị người dùng: %s"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: 1: The 'id' argument, 2: Sidebar name, 3: Recommended 'id'
 #. value.
@@ -14377,7 +14605,11 @@ msgstr "Thay đổi tệp tin"
 #: wp-includes/post.php:76
 msgctxt "post type general name"
 msgid "Media"
+<<<<<<< HEAD
 msgstr "Đa phương tiện"
+=======
+msgstr "Media"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/post.php:51
 msgctxt "add new from admin bar"
@@ -14442,7 +14674,11 @@ msgstr "Trang web này là không còn nữa."
 
 #: wp-includes/media.php:4832 wp-includes/media.php:4833
 msgid "Search media"
+<<<<<<< HEAD
 msgstr "Tìm media"
+=======
+msgstr "Tìm tệp media"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Hidden accessibility text.
 #: wp-includes/media.php:4831
@@ -14720,7 +14956,11 @@ msgstr "Tìm kiếm tiện ích"
 
 #: wp-includes/class-wp-customize-widgets.php:802
 msgid "Save and preview changes before publishing them."
+<<<<<<< HEAD
 msgstr "Lưu và xem trước những thay đổi trước khi đăng chúng."
+=======
+msgstr "Lưu và xem trước những thay đổi trước khi xuất bản chúng."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/class-wp-customize-widgets.php:730
 msgctxt "Move widget"
@@ -15108,7 +15348,11 @@ msgstr "Tạo một danh sách chơi nhạc mới"
 #: wp-includes/js/dist/preferences.js:733 wp-admin/includes/ms.php:49
 #: wp-admin/theme-install.php:60
 msgid "Back"
+<<<<<<< HEAD
 msgstr "Trở lại"
+=======
+msgstr "Quay lại"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/media-template.php:1499
 msgid "There are no associated subtitles."
@@ -15956,7 +16200,11 @@ msgstr "Văn bản thay thế"
 
 #: wp-includes/media-template.php:662 wp-admin/upload.php:189
 msgid "Attachment Details"
+<<<<<<< HEAD
 msgstr "Chi tiết đính kèm"
+=======
+msgstr "Chi tiết tệp đính kèm"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
 #: wp-includes/block-editor.php:173 wp-includes/class-wp-theme-json.php:4086
@@ -15992,7 +16240,11 @@ msgstr "WordPress &rsaquo; Thành công"
 
 #: wp-includes/media.php:4803
 msgid "Upload files"
+<<<<<<< HEAD
 msgstr "Tải file"
+=======
+msgstr "Tải lên tệp mới"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/media.php:4854 wp-admin/includes/media.php:2690
 msgid "Insert gallery"
@@ -16012,7 +16264,11 @@ msgstr "Tạo thư viện ảnh"
 #: wp-admin/includes/media.php:21 wp-admin/upload.php:204
 #: wp-admin/upload.php:358
 msgid "Media Library"
+<<<<<<< HEAD
 msgstr "Media"
+=======
+msgstr "Chọn từ thư viện Media"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/ms-deprecated.php:619 wp-admin/install.php:228
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
@@ -16264,7 +16520,11 @@ msgstr "Đã lưu"
 
 #: wp-includes/script-loader.php:1275
 msgid "Save &amp; Publish"
+<<<<<<< HEAD
 msgstr "Lưu &amp; Đăng"
+=======
+msgstr "Lưu &amp; xuất bản"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/customize/class-wp-customize-media-control.php:258
 #: wp-includes/customize/class-wp-customize-media-control.php:263
@@ -16411,7 +16671,11 @@ msgstr "Xóa bỏ"
 #: wp-admin/includes/class-wp-theme-install-list-table.php:63
 #: wp-admin/includes/media.php:2280 wp-admin/includes/media.php:2284
 msgid "Upload"
+<<<<<<< HEAD
 msgstr "Tải lên"
+=======
+msgstr "Tải lên tệp mới"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/class-wp-xmlrpc-server.php:2466
 #: wp-includes/class-wp-xmlrpc-server.php:2573
@@ -17481,13 +17745,21 @@ msgstr "Xin lỗi, để xem các danh mục của trang này, bạn phải có 
 
 #: wp-includes/class-wp-xmlrpc-server.php:5378
 msgid "Sorry, you are not allowed to publish pages on this site."
+<<<<<<< HEAD
 msgstr "Bạn không được phép đăng các trang cho website này."
+=======
+msgstr "Bạn không được phép xuất bản các trang cho website này."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/class-wp-xmlrpc-server.php:5391
 #: wp-includes/class-wp-xmlrpc-server.php:5405
 #: wp-includes/class-wp-xmlrpc-server.php:5410
 msgid "Sorry, you are not allowed to publish posts on this site."
+<<<<<<< HEAD
 msgstr "Bạn không được phép đăng bài trên trang này."
+=======
+msgstr "Bạn không được phép xuất bản bài trên trang này."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/class-wp-xmlrpc-server.php:1460
 #: wp-includes/class-wp-xmlrpc-server.php:5131
@@ -17910,7 +18182,11 @@ msgstr "Định dạng bài viết không hợp lệ."
 #: wp-includes/class-wp-xmlrpc-server.php:1476
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1463
 msgid "Sorry, you are not allowed to publish posts in this post type."
+<<<<<<< HEAD
 msgstr "Xin lỗi, bạn không có quyền đăng bài viết."
+=======
+msgstr "Xin lỗi, bạn không có quyền xuất bản bài viết."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/class-wp-xmlrpc-server.php:5209
 #: wp-includes/class-wp-xmlrpc-server.php:5283
@@ -17923,7 +18199,11 @@ msgstr "Xin lỗi, bài viết này không tồn tại."
 #: wp-includes/class-wp-xmlrpc-server.php:5942
 #: wp-includes/class-wp-xmlrpc-server.php:6817
 msgid "Sorry, you are not allowed to publish this post."
+<<<<<<< HEAD
 msgstr "Xin lỗi, bạn không có quyền đăng bài viết."
+=======
+msgstr "Xin lỗi, bạn không có quyền xuất bản bài viết."
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/class-wp-xmlrpc-server.php:5042
 #: wp-includes/class-wp-xmlrpc-server.php:6523
@@ -18387,7 +18667,11 @@ msgstr[0] "Đã lên lịch <span class=\"count\">(%s)</span>"
 #: wp-includes/post.php:647
 msgid "Published <span class=\"count\">(%s)</span>"
 msgid_plural "Published <span class=\"count\">(%s)</span>"
+<<<<<<< HEAD
 msgstr[0] "Đã đăng <span class=\"count\">(%s)</span>"
+=======
+msgstr[0] "Đã xuất bản <span class=\"count\">(%s)</span>"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/post.php:112
 msgid "Revision"
@@ -18786,7 +19070,11 @@ msgstr "Khoảng trống chiều dọc"
 #: wp-includes/js/dist/block-editor.js:67050
 #: wp-includes/js/dist/block-editor.js:67170
 msgid "Dimensions"
+<<<<<<< HEAD
 msgstr "Kích thước"
+=======
+msgstr "Kích thước lề"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/class-wp-editor.php:1226
 #: wp-includes/js/dist/block-editor.js:26177
@@ -19468,7 +19756,11 @@ msgstr "Trả lời %s"
 #: wp-includes/comment-template.php:2100 wp-includes/comment-template.php:2633
 #: wp-includes/js/dist/block-library.js:8701
 msgid "Leave a Reply"
+<<<<<<< HEAD
 msgstr "Trả lời"
+=======
+msgstr "Để lại một bình luận"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/comment-template.php:1980
 msgid "Click here to cancel reply."
@@ -19484,7 +19776,11 @@ msgstr "Gửi bình luận"
 
 #: wp-includes/comment-template.php:1756
 msgid "Log in to Reply"
+<<<<<<< HEAD
 msgstr "Đăng nhập để trả lời"
+=======
+msgstr "Đăng nhập để bình luận"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: %s: Category name.
 #: wp-includes/class-walker-category.php:171
@@ -19862,7 +20158,11 @@ msgstr "Độ bảo mật"
 #: wp-admin/network/site-info.php:146 wp-admin/network/site-settings.php:95
 #: wp-admin/network/site-themes.php:181 wp-admin/network/site-users.php:226
 msgid "Dashboard"
+<<<<<<< HEAD
 msgstr "Bảng tin"
+=======
+msgstr "Trang quản trị"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/class-wp-widget.php:144 wp-admin/includes/widgets.php:278
 #: wp-admin/widgets-form.php:293
@@ -20110,7 +20410,11 @@ msgstr "Tìm kiếm"
 #: wp-admin/includes/dashboard.php:1771 wp-admin/includes/file.php:348
 #: wp-admin/index.php:187
 msgid "Dismiss"
+<<<<<<< HEAD
 msgstr "Hủy"
+=======
+msgstr "Tắt thông báo"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/class-wp-taxonomy.php:617
 msgid "All Categories"
@@ -20288,7 +20592,11 @@ msgstr "Đã lưu."
 #: wp-includes/class-wp-editor.php:1399
 #: wp-includes/js/dist/block-library.js:13707 wp-admin/includes/media.php:661
 msgid "Add Media"
+<<<<<<< HEAD
 msgstr "Thêm Media"
+=======
+msgstr "Thêm tệp Media"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: %s: File name.
 #: wp-includes/deprecated.php:3218
@@ -20392,7 +20700,11 @@ msgstr "Thông báo liên kết"
 #: wp-admin/includes/dashboard.php:766 wp-admin/js/edit-comments.js:373
 #: wp-admin/js/edit-comments.js:1015
 msgid "Reply"
+<<<<<<< HEAD
 msgstr "Trả lời"
+=======
+msgstr "Bình luận"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/class-wp-customize-manager.php:4862
 #: wp-includes/script-loader.php:1278 wp-admin/includes/dashboard.php:607
@@ -20725,7 +21037,11 @@ msgstr "Thuộc tính"
 #: wp-admin/includes/meta-boxes.php:389 wp-admin/includes/meta-boxes.php:1597
 #: wp-admin/js/post.js:797
 msgid "Publish"
+<<<<<<< HEAD
 msgstr "Đăng"
+=======
+msgstr "Xuất bản"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: Hidden accessibility text.
 #. translators: Default privacy policy heading.
@@ -20980,7 +21296,11 @@ msgstr "Chờ duyệt"
 #: wp-admin/includes/meta-boxes.php:112 wp-admin/includes/meta-boxes.php:152
 #: wp-admin/js/post.js:838
 msgid "Published"
+<<<<<<< HEAD
 msgstr "Đã đăng"
+=======
+msgstr "Đã xuất bản"
+>>>>>>> 7e57a7c (first commit)
 
 #: wp-includes/class-wp-editor.php:1214 wp-includes/media-template.php:523
 #: wp-includes/media-template.php:771 wp-includes/option.php:2662

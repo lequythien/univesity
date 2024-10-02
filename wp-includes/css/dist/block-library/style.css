@@ -2270,7 +2270,11 @@ p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[
   display:block;
   height:100%;
 }
+<<<<<<< HEAD
 .wp-block-post-featured-image img{
+=======
+.wp-block-post-featured-image :where(img){
+>>>>>>> 7e57a7c (first commit)
   box-sizing:border-box;
   height:auto;
   max-width:100%;

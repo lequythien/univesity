@@ -45,7 +45,11 @@
             </div><!-- .entry-content -->
 
             <footer class="entry-footer">
+<<<<<<< HEAD
                 <p><?php echo sprintf(__('Posted on %s', 'themeUniversity'), get_the_date()); ?></p>
+=======
+                <p><?php echo sprintf(__('Posted on %s', 'university'), get_the_date()); ?></p>
+>>>>>>> 7e57a7c (first commit)
             </footer><!-- .entry-footer -->
         </article><!-- #post-<?php the_ID(); ?> -->
 

@@ -2,7 +2,11 @@
 # This file is distributed under the same license as the Plugins - Advanced Custom Fields (ACF) - Stable (latest release) package.
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-02 04:41:03+0000\n"
+=======
+"PO-Revision-Date: 2024-09-28 11:03:27+0000\n"
+>>>>>>> 7e57a7c (first commit)
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1424,7 +1428,11 @@ msgstr "Không tìm thấy kết quả cho thời gian tìm kiếm đó"
 
 #: includes/fields/class-acf-field-icon_picker.php:266
 msgid "Array"
+<<<<<<< HEAD
 msgstr "Mảng"
+=======
+msgstr "Array"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/fields/class-acf-field-icon_picker.php:265
 msgid "String"
@@ -2020,7 +2028,11 @@ msgstr "Hai chiều"
 #. translators: %s A field type name, such as "Relationship"
 #: includes/acf-bidirectional-functions.php:193
 msgid "%s Field"
+<<<<<<< HEAD
 msgstr "%s Trường"
+=======
+msgstr "Trường %s"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/fields/class-acf-field-page_link.php:498
 #: includes/fields/class-acf-field-post_object.php:411
@@ -2103,7 +2115,11 @@ msgstr "Mở khóa các tính năng nâng cao và xây dựng thêm nhiều hơn
 #. translators: %s - singular label of post type/taxonomy, i.e. "Movie"/"Genre"
 #: includes/admin/views/global/form-top.php:19
 msgid "%s fields"
+<<<<<<< HEAD
 msgstr "%s các trường"
+=======
+msgstr "Các trường %s"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/admin/post-types/admin-taxonomies.php:267
 msgid "No terms"
@@ -2648,7 +2664,11 @@ msgstr "Quay lại mục"
 #. translators: %s Plural form of taxonomy name
 #: includes/admin/views/acf-taxonomy/advanced-settings.php:657
 msgid "← Go to %s"
+<<<<<<< HEAD
 msgstr "← Đi tới %s"
+=======
+msgstr "← Quay lại %s"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/admin/views/acf-taxonomy/advanced-settings.php:642
 msgid "Tags list"
@@ -2877,7 +2897,11 @@ msgstr "Mục cha"
 #. translators: %s Singular form of taxonomy name
 #: includes/admin/views/acf-taxonomy/advanced-settings.php:293
 msgid "Parent %s"
+<<<<<<< HEAD
 msgstr "Cha %s"
+=======
+msgstr "%s cha"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/admin/views/acf-taxonomy/advanced-settings.php:278
 msgid "New Tag Name"
@@ -3157,7 +3181,11 @@ msgstr "Slug trang lưu trữ"
 
 #: includes/admin/views/acf-post-type/advanced-settings.php:1134
 msgid "Has an item archive that can be customized with an archive template file in your theme."
+<<<<<<< HEAD
 msgstr "Có một kho lưu trữ mục có thể được tùy chỉnh với một tệp mẫu lưu trữ trong chủ đề của bạn."
+=======
+msgstr "Có một kho lưu trữ mục có thể được tùy chỉnh với một tệp mẫu lưu trữ trong giao diện của bạn."
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/admin/views/acf-post-type/advanced-settings.php:1133
 msgid "Archive"
@@ -3382,7 +3410,11 @@ msgstr "Liên kết mục"
 #: includes/admin/views/acf-post-type/advanced-settings.php:668
 #: includes/admin/views/acf-taxonomy/advanced-settings.php:678
 msgid "%s Link"
+<<<<<<< HEAD
 msgstr "%s Liên Kết"
+=======
+msgstr "Liên kết %s"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/admin/views/acf-post-type/advanced-settings.php:653
 msgid "Post updated."
@@ -3549,7 +3581,11 @@ msgstr "Trong modal phương tiện hiển thị tất cả phương tiện đã
 
 #: includes/admin/views/acf-post-type/advanced-settings.php:468
 msgid "Uploaded To This Item"
+<<<<<<< HEAD
 msgstr "Đã Tải Lên Mục Này"
+=======
+msgstr "Đã tải lên mục này"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: %s Singular form of post type name
 #: includes/admin/views/acf-post-type/advanced-settings.php:464
@@ -3566,7 +3602,11 @@ msgstr "Như nhãn nút khi thêm phương tiện vào nội dung."
 
 #: includes/admin/views/acf-post-type/advanced-settings.php:447
 msgid "Insert Into Media Button"
+<<<<<<< HEAD
 msgstr "Đã tải lên mục này"
+=======
+msgstr "Chèn vào nút Media"
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: %s Singular form of post type name
 #: includes/admin/views/acf-post-type/advanced-settings.php:443
@@ -3640,7 +3680,11 @@ msgstr "Thuộc tính %s"
 
 #: includes/admin/views/acf-post-type/advanced-settings.php:348
 msgid "Post Archives"
+<<<<<<< HEAD
 msgstr "Lưu Trữ Bài viết"
+=======
+msgstr "Lưu trữ bài viết"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/admin/views/acf-post-type/advanced-settings.php:347
 msgid "Adds 'Post Type Archive' items with this label to the list of posts shown when adding items to an existing menu in a CPT with archives enabled. Only appears when editing menus in 'Live Preview' mode and a custom archive slug has been provided."
@@ -3937,7 +3981,11 @@ msgstr "Nhập từ Giao diện người dùng loại nội dung Tùy chỉnh"
 
 #: includes/admin/tools/class-acf-admin-tool-export.php:354
 msgid "The following code can be used to register a local version of the selected items. Storing field groups, post types, or taxonomies locally can provide many benefits such as faster load times, version control & dynamic fields/settings. Simply copy and paste the following code to your theme's functions.php file or include it within an external file, then deactivate or delete the items from the ACF admin."
+<<<<<<< HEAD
 msgstr "Mã sau đây có thể được sử dụng để đăng ký một phiên bản địa phương của các mục đã chọn. Lưu trữ nhóm trường, loại nội dung hoặc phân loại một cách địa phương có thể mang lại nhiều lợi ích như thời gian tải nhanh hơn, kiểm soát phiên bản và trường/cài đặt động. Chỉ cần sao chép và dán mã sau vào tệp functions.php của chủ đề của bạn hoặc bao gồm nó trong một tệp bên ngoài, sau đó hủy kích hoạt hoặc xóa các mục từ quản trị ACF."
+=======
+msgstr "Mã sau đây có thể được sử dụng để đăng ký một phiên bản địa phương của các mục đã chọn. Lưu trữ nhóm trường, loại nội dung hoặc phân loại một cách địa phương có thể mang lại nhiều lợi ích như thời gian tải nhanh hơn, kiểm soát phiên bản và trường/cài đặt động. Chỉ cần sao chép và dán mã sau vào tệp functions.php giao diện của bạn hoặc bao gồm nó trong một tệp bên ngoài, sau đó hủy kích hoạt hoặc xóa các mục từ quản trị ACF."
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/admin/tools/class-acf-admin-tool-export.php:353
 msgid "Export - Generate PHP"
@@ -4009,7 +4057,11 @@ msgstr "Phân loại đã được cập nhật."
 #: includes/admin/post-types/admin-taxonomies.php:351
 #: includes/admin/post-types/admin-taxonomy.php:153
 msgid "This taxonomy could not be registered because its key is in use by another taxonomy registered by another plugin or theme."
+<<<<<<< HEAD
 msgstr "Phân loại này không thể được đăng ký vì khóa của nó đang được sử dụng bởi một phân loại khác được đăng ký bởi một plugin hoặc chủ đề khác."
+=======
+msgstr "Phân loại này không thể được đăng ký vì khóa của nó đang được sử dụng bởi một phân loại khác được đăng ký bởi một plugin hoặc giao diện khác."
+>>>>>>> 7e57a7c (first commit)
 
 #. translators: %s number of taxonomies synchronized
 #: includes/admin/post-types/admin-taxonomies.php:333
@@ -4084,7 +4136,11 @@ msgstr "Cài đặt cơ bản"
 #: includes/admin/post-types/admin-post-type.php:151
 #: includes/admin/post-types/admin-post-types.php:345
 msgid "This post type could not be registered because its key is in use by another post type registered by another plugin or theme."
+<<<<<<< HEAD
 msgstr "Loại nội dung này không thể được đăng ký vì khóa của nó đang được sử dụng bởi một loại nội dung khác được đăng ký bởi một plugin hoặc chủ đề khác."
+=======
+msgstr "Loại nội dung này không thể được đăng ký vì khóa của nó đang được sử dụng bởi một loại nội dung khác được đăng ký bởi một plugin hoặc giao diện khác."
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/admin/post-types/admin-post-type.php:126
 #: assets/build/js/acf-internal-post-type.js:176
@@ -4203,7 +4259,11 @@ msgstr "Đăng ký Thất bại"
 
 #: includes/admin/admin-internal-post-type-list.php:276
 msgid "This item could not be registered because its key is in use by another item registered by another plugin or theme."
+<<<<<<< HEAD
 msgstr "Mục này không thể được đăng ký vì khóa của nó đang được sử dụng bởi một mục khác được đăng ký bởi một plugin hoặc chủ đề khác."
+=======
+msgstr "Mục này không thể được đăng ký vì khóa của nó đang được sử dụng bởi một mục khác được đăng ký bởi một plugin hoặc giao diện khác."
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/acf-internal-post-type-functions.php:509
 #: includes/acf-internal-post-type-functions.php:538
@@ -4540,7 +4600,11 @@ msgstr "Kích hoạt tính trong suốt"
 
 #: includes/fields/class-acf-field-color_picker.php:175
 msgid "RGBA Array"
+<<<<<<< HEAD
 msgstr "Mảng RGBA"
+=======
+msgstr "Array RGBA"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/fields/class-acf-field-color_picker.php:92
 msgid "RGBA String"
@@ -4660,7 +4724,11 @@ msgstr "Đặt trong plugin: %s"
 
 #: includes/admin/admin-internal-post-type-list.php:388
 msgid "Located in theme: %s"
+<<<<<<< HEAD
 msgstr "Đặt trong chủ đề: %s"
+=======
+msgstr "Đặt trong giao diện: %s"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/admin/post-types/admin-field-groups.php:235
 msgid "Various"
@@ -4725,7 +4793,11 @@ msgstr "Trước khi tạo Nhóm Trường đầu tiên của bạn, chúng tôi
 
 #: includes/admin/admin.php:134
 msgid "The Advanced Custom Fields plugin provides a visual form builder to customize WordPress edit screens with extra fields, and an intuitive API to display custom field values in any theme template file."
+<<<<<<< HEAD
 msgstr "Plugin Advanced Custom Fields cung cấp một trình xây dựng form trực quan để tùy chỉnh màn hình chỉnh sửa WordPress với các trường bổ sung, và một API trực quan để hiển thị giá trị trường tùy chỉnh trong bất kỳ tệp mẫu chủ đề nào."
+=======
+msgstr "Plugin Advanced Custom Fields cung cấp một trình xây dựng form trực quan để tùy chỉnh màn hình chỉnh sửa WordPress với các trường bổ sung, và một API trực quan để hiển thị giá trị trường tùy chỉnh trong bất kỳ tệp mẫu giao diện nào."
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/admin/admin.php:131 includes/admin/admin.php:133
 msgid "Overview"
@@ -4841,7 +4913,11 @@ msgstr "Mẫu trang"
 
 #: includes/locations/class-acf-location-user-form.php:74
 msgid "Register"
+<<<<<<< HEAD
 msgstr "Đăng ký"
+=======
+msgstr "Register"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/locations/class-acf-location-user-form.php:73
 msgid "Add / Edit"
@@ -5279,7 +5355,11 @@ msgstr "Sao chép vào bảng nhớ tạm"
 
 #: includes/admin/tools/class-acf-admin-tool-export.php:331
 msgid "Select the items you would like to export and then select your export method. Export As JSON to export to a .json file which you can then import to another ACF installation. Generate PHP to export to PHP code which you can place in your theme."
+<<<<<<< HEAD
 msgstr "Chọn các mục bạn muốn xuất và sau đó chọn phương pháp xuất của bạn. Xuất dưới dạng JSON để xuất ra tệp .json mà sau đó bạn có thể nhập vào cài đặt ACF khác. Tạo PHP để xuất ra mã PHP mà bạn có thể đặt trong chủ đề của mình."
+=======
+msgstr "Chọn các mục bạn muốn xuất và sau đó chọn phương pháp xuất của bạn. Xuất dưới dạng JSON để xuất ra tệp .json mà sau đó bạn có thể nhập vào cài đặt ACF khác. Tạo PHP để xuất ra mã PHP mà bạn có thể đặt trong giao diện của mình."
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/admin/tools/class-acf-admin-tool-export.php:215
 msgid "Select Field Groups"
@@ -5995,7 +6075,11 @@ msgstr "URL tệp"
 
 #: includes/fields/class-acf-field-file.php:205
 msgid "File Array"
+<<<<<<< HEAD
 msgstr "Mảng tập tin"
+=======
+msgstr "Array tập tin"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/fields/class-acf-field-file.php:176
 msgid "Add File"
@@ -6135,7 +6219,11 @@ msgstr "Đối tượng người dùng"
 
 #: includes/fields/class-acf-field-user.php:100
 msgid "User Array"
+<<<<<<< HEAD
 msgstr "Mảng người dùng"
+=======
+msgstr "Array người dùng"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/fields/class-acf-field-user.php:88
 msgid "All user roles"
@@ -6286,7 +6374,11 @@ msgstr "URL liên kết"
 
 #: includes/fields/class-acf-field-link.php:152
 msgid "Link Array"
+<<<<<<< HEAD
 msgstr "Mảng liên kết"
+=======
+msgstr "Array liên kết"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/fields/class-acf-field-link.php:124
 msgid "Opens in a new window/tab"
@@ -6328,7 +6420,11 @@ msgstr "Thanh trượt phạm vi"
 #: includes/fields/class-acf-field-radio.php:210
 #: includes/fields/class-acf-field-select.php:364
 msgid "Both (Array)"
+<<<<<<< HEAD
 msgstr "Cả hai (Mảng)"
+=======
+msgstr "Cả hai (Array)"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/admin/views/acf-field-group/fields.php:52
 #: includes/fields/class-acf-field-button-group.php:164
@@ -6716,7 +6812,11 @@ msgstr "URL Hình ảnh"
 
 #: includes/fields/class-acf-field-image.php:183
 msgid "Image Array"
+<<<<<<< HEAD
 msgstr "Mảng hình ảnh"
+=======
+msgstr "Array hình ảnh"
+>>>>>>> 7e57a7c (first commit)
 
 #: includes/fields/class-acf-field-button-group.php:158
 #: includes/fields/class-acf-field-checkbox.php:343

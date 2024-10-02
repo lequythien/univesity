@@ -25133,6 +25133,12 @@ function bulk_actions_ActionWithModal({
   const onCloseModal = (0,external_wp_element_namespaceObject.useCallback)(() => {
     setActionWithModal(undefined);
   }, [setActionWithModal]);
+<<<<<<< HEAD
+=======
+  if (!eligibleItems.length) {
+    return null;
+  }
+>>>>>>> 7e57a7c (first commit)
   const label = typeof action.label === 'string' ? action.label : action.label(selectedItems);
   return /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_components_namespaceObject.Modal, {
     title: !hideModalHeader ? label : undefined,
@@ -35575,7 +35581,11 @@ function usePostTypeArchiveMenuItems() {
       // `icon` is the `menu_icon` property of a post type. We
       // only handle `dashicons` for now, even if the `menu_icon`
       // also supports urls and svg as values.
+<<<<<<< HEAD
       icon: postType.icon?.startsWith('dashicons-') ? postType.icon.slice(10) : library_archive,
+=======
+      icon: typeof postType.icon === 'string' && postType.icon.startsWith('dashicons-') ? postType.icon.slice(10) : library_archive,
+>>>>>>> 7e57a7c (first commit)
       templatePrefix: 'archive'
     };
   }) || [], [postTypesWithArchives, existingTemplates, needsUniqueIdentifier]);
@@ -35653,7 +35663,11 @@ const usePostTypeMenuItems = onClickMenuItem => {
       // `icon` is the `menu_icon` property of a post type. We
       // only handle `dashicons` for now, even if the `menu_icon`
       // also supports urls and svg as values.
+<<<<<<< HEAD
       icon: icon?.startsWith('dashicons-') ? icon.slice(10) : library_post,
+=======
+      icon: typeof icon === 'string' && icon.startsWith('dashicons-') ? icon.slice(10) : library_post,
+>>>>>>> 7e57a7c (first commit)
       templatePrefix: templatePrefixes[slug]
     };
     const hasEntities = postTypesInfo?.[slug]?.hasEntities;

@@ -1574,9 +1574,13 @@ const CSSSelector_1 = __webpack_require__(3467);
 const prefixWrapCSSRule = (cssRule, nested, ignoredSelectors, prefixSelector, prefixRootTags) => {
     // Check each rule to see if it exactly matches our prefix selector, when
     // this happens, don't try to prefix that selector.
+<<<<<<< HEAD
     const rules = cssRule.selector
         .split(",")
         .filter((selector) => !(0, CSSSelector_1.cssRuleMatchesPrefixSelector)({ selector: selector }, prefixSelector));
+=======
+    const rules = cssRule.selectors.filter((selector) => !(0, CSSSelector_1.cssRuleMatchesPrefixSelector)({ selector: selector }, prefixSelector));
+>>>>>>> 7e57a7c (first commit)
     if (rules.length === 0) {
         return;
     }
@@ -10466,12 +10470,53 @@ const STORE_NAME = 'core/block-editor';
 
 ;// CONCATENATED MODULE: ./node_modules/@wordpress/block-editor/build-module/store/utils.js
 /**
+<<<<<<< HEAD
+=======
+ * WordPress dependencies
+ */
+
+
+/**
+>>>>>>> 7e57a7c (first commit)
  * Internal dependencies
  */
 
 
 
 const withRootClientIdOptionKey = Symbol('withRootClientId');
+<<<<<<< HEAD
+=======
+const parsedPatternCache = new WeakMap();
+function parsePattern(pattern) {
+  const blocks = (0,external_wp_blocks_namespaceObject.parse)(pattern.content, {
+    __unstableSkipMigrationLogs: true
+  });
+  if (blocks.length === 1) {
+    blocks[0].attributes = {
+      ...blocks[0].attributes,
+      metadata: {
+        ...(blocks[0].attributes.metadata || {}),
+        categories: pattern.categories,
+        patternName: pattern.name,
+        name: blocks[0].attributes.metadata?.name || pattern.title
+      }
+    };
+  }
+  return {
+    ...pattern,
+    blocks
+  };
+}
+function getParsedPattern(pattern) {
+  let parsedPattern = parsedPatternCache.get(pattern);
+  if (parsedPattern) {
+    return parsedPattern;
+  }
+  parsedPattern = parsePattern(pattern);
+  parsedPatternCache.set(pattern, parsedPattern);
+  return parsedPattern;
+}
+>>>>>>> 7e57a7c (first commit)
 const checkAllowList = (list, item, defaultResult = null) => {
   if (typeof list === 'boolean') {
     return list;
@@ -11056,23 +11101,38 @@ const getInserterMediaCategories = (0,external_wp_data_namespaceObject.createSel
  */
 const hasAllowedPatterns = (0,external_wp_data_namespaceObject.createRegistrySelector)(select => (0,external_wp_data_namespaceObject.createSelector)((state, rootClientId = null) => {
   const {
+<<<<<<< HEAD
     getAllPatterns,
     __experimentalGetParsedPattern
+=======
+    getAllPatterns
+>>>>>>> 7e57a7c (first commit)
   } = unlock(select(STORE_NAME));
   const patterns = getAllPatterns();
   const {
     allowedBlockTypes
   } = getSettings(state);
+<<<<<<< HEAD
   return patterns.some(({
     name,
     inserter = true
   }) => {
+=======
+  return patterns.some(pattern => {
+    const {
+      inserter = true
+    } = pattern;
+>>>>>>> 7e57a7c (first commit)
     if (!inserter) {
       return false;
     }
     const {
       blocks
+<<<<<<< HEAD
     } = __experimentalGetParsedPattern(name);
+=======
+    } = getParsedPattern(pattern);
+>>>>>>> 7e57a7c (first commit)
     return checkAllowListRecursive(blocks, allowedBlockTypes) && blocks.every(({
       name: blockName
     }) => canInsertBlockType(state, blockName, rootClientId));
@@ -13179,6 +13239,7 @@ function __experimentalGetDirectInsertBlock(state, rootClientId = null) {
   });
   return getDirectInsertBlock(state, rootClientId);
 }
+<<<<<<< HEAD
 const __experimentalGetParsedPattern = (0,external_wp_data_namespaceObject.createRegistrySelector)(select => (0,external_wp_data_namespaceObject.createSelector)((state, patternName) => {
   const pattern = unlock(select(STORE_NAME)).getPatternBySlug(patternName);
   if (!pattern) {
@@ -13203,6 +13264,12 @@ const __experimentalGetParsedPattern = (0,external_wp_data_namespaceObject.creat
     blocks
   };
 }, (state, patternName) => [unlock(select(STORE_NAME)).getPatternBySlug(patternName)]));
+=======
+const __experimentalGetParsedPattern = (0,external_wp_data_namespaceObject.createRegistrySelector)(select => (state, patternName) => {
+  const pattern = unlock(select(STORE_NAME)).getPatternBySlug(patternName);
+  return pattern ? getParsedPattern(pattern) : null;
+});
+>>>>>>> 7e57a7c (first commit)
 const getAllowedPatternsDependants = select => (state, rootClientId) => [...getAllPatternsDependants(select)(state), ...getInsertBlockTypeDependants(state, rootClientId)];
 
 /**
@@ -13216,8 +13283,12 @@ const getAllowedPatternsDependants = select => (state, rootClientId) => [...getA
 const __experimentalGetAllowedPatterns = (0,external_wp_data_namespaceObject.createRegistrySelector)(select => {
   return (0,external_wp_data_namespaceObject.createSelector)((state, rootClientId = null) => {
     const {
+<<<<<<< HEAD
       getAllPatterns,
       __experimentalGetParsedPattern: getParsedPattern
+=======
+      getAllPatterns
+>>>>>>> 7e57a7c (first commit)
     } = unlock(select(STORE_NAME));
     const patterns = getAllPatterns();
     const {
@@ -13225,9 +13296,13 @@ const __experimentalGetAllowedPatterns = (0,external_wp_data_namespaceObject.cre
     } = getSettings(state);
     const parsedPatterns = patterns.filter(({
       inserter = true
+<<<<<<< HEAD
     }) => !!inserter).map(({
       name
     }) => getParsedPattern(name));
+=======
+    }) => !!inserter).map(getParsedPattern);
+>>>>>>> 7e57a7c (first commit)
     const availableParsedPatterns = parsedPatterns.filter(({
       blocks
     }) => checkAllowListRecursive(blocks, allowedBlockTypes));
@@ -34098,7 +34173,11 @@ function getLayoutStyles({
               // For fallback gap styles, use lower specificity, to ensure styles do not unintentionally override theme styles.
               combinedSelector = selector === ROOT_BLOCK_SELECTOR ? `:where(.${className}${spacingStyle?.selector || ''})` : `:where(${selector}.${className}${spacingStyle?.selector || ''})`;
             } else {
+<<<<<<< HEAD
               combinedSelector = selector === ROOT_BLOCK_SELECTOR ? `.${className}${spacingStyle?.selector || ''}` : `${selector}-${className}${spacingStyle?.selector || ''}`;
+=======
+              combinedSelector = selector === ROOT_BLOCK_SELECTOR ? `:root :where(.${className})${spacingStyle?.selector || ''}` : `:root :where(${selector}-${className})${spacingStyle?.selector || ''}`;
+>>>>>>> 7e57a7c (first commit)
             }
             ruleset += `${combinedSelector} { ${declarations.join('; ')}; }`;
           }
@@ -34163,7 +34242,14 @@ const getNodesWithStyles = (tree, blockSelectors) => {
   if (styles) {
     nodes.push({
       styles,
+<<<<<<< HEAD
       selector: ROOT_BLOCK_SELECTOR
+=======
+      selector: ROOT_BLOCK_SELECTOR,
+      // Root selector (body) styles should not be wrapped in `:root where()` to keep
+      // specificity at (0,0,1) and maintain backwards compatibility.
+      skipSelectorWrapper: true
+>>>>>>> 7e57a7c (first commit)
     });
   }
   Object.entries(external_wp_blocks_namespaceObject.__EXPERIMENTAL_ELEMENTS).forEach(([name, selector]) => {
@@ -34614,10 +34700,22 @@ function updateConfigWithSeparator(config) {
 }
 function processCSSNesting(css, blockSelector) {
   let processedCSS = '';
+<<<<<<< HEAD
+=======
+  if (!css || css.trim() === '') {
+    return processedCSS;
+  }
+>>>>>>> 7e57a7c (first commit)
 
   // Split CSS nested rules.
   const parts = css.split('&');
   parts.forEach(part => {
+<<<<<<< HEAD
+=======
+    if (!part || part.trim() === '') {
+      return;
+    }
+>>>>>>> 7e57a7c (first commit)
     const isRootCss = !part.includes('{');
     if (isRootCss) {
       // If the part doesn't contain braces, it applies to the root level.
@@ -34629,8 +34727,32 @@ function processCSSNesting(css, blockSelector) {
         return;
       }
       const [nestedSelector, cssValue] = splittedPart;
+<<<<<<< HEAD
       const combinedSelector = nestedSelector.startsWith(' ') ? scopeSelector(blockSelector, nestedSelector) : appendToSelector(blockSelector, nestedSelector);
       processedCSS += `:root :where(${combinedSelector}){${cssValue.trim()}}`;
+=======
+
+      // Handle pseudo elements such as ::before, ::after, etc. Regex will also
+      // capture any leading combinator such as >, +, or ~, as well as spaces.
+      // This allows pseudo elements as descendants e.g. `.parent ::before`.
+      const matches = nestedSelector.match(/([>+~\s]*::[a-zA-Z-]+)/);
+      const pseudoPart = matches ? matches[1] : '';
+      const withoutPseudoElement = matches ? nestedSelector.replace(pseudoPart, '').trim() : nestedSelector.trim();
+      let combinedSelector;
+      if (withoutPseudoElement === '') {
+        // Only contained a pseudo element to use the block selector to form
+        // the final `:root :where()` selector.
+        combinedSelector = blockSelector;
+      } else {
+        // If the nested selector is a descendant of the block scope it with the
+        // block selector. Otherwise append it to the block selector.
+        combinedSelector = nestedSelector.startsWith(' ') ? scopeSelector(blockSelector, withoutPseudoElement) : appendToSelector(blockSelector, withoutPseudoElement);
+      }
+
+      // Build final rule, re-adding any pseudo element outside the `:where()`
+      // to maintain valid CSS selector.
+      processedCSS += `:root :where(${combinedSelector})${pseudoPart}{${cssValue.trim()}}`;
+>>>>>>> 7e57a7c (first commit)
     }
   });
   return processedCSS;
@@ -38494,7 +38616,11 @@ function createBlockCompleter() {
           prioritizedBlocks: getBlockListSettings(_rootClientId)?.prioritizedInserterBlocks
         };
       }, []);
+<<<<<<< HEAD
       const [items, categories, collections] = use_block_types_state(rootClientId, block_noop);
+=======
+      const [items, categories, collections] = use_block_types_state(rootClientId, block_noop, true);
+>>>>>>> 7e57a7c (first commit)
       const filteredItems = (0,external_wp_element_namespaceObject.useMemo)(() => {
         const initialFilteredItems = !!filterValue.trim() ? searchBlockItems(items, categories, collections, filterValue) : orderInserterBlockItems(orderBy(items, 'frecency', 'desc'), prioritizedBlocks);
         return initialFilteredItems.filter(item => item.name !== selectedBlockName).slice(0, SHOWN_BLOCK_TYPES);

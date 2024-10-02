@@ -96,7 +96,11 @@ themes.view.Appearance = wp.Backbone.View.extend({
 	},
 
 	// Defines search element container.
+<<<<<<< HEAD
 	searchContainer: $( '.search-form .search-box' ),
+=======
+	searchContainer: $( '.search-form' ),
+>>>>>>> 7e57a7c (first commit)
 
 	// Search input and view
 	// for current theme collection.
@@ -118,11 +122,21 @@ themes.view.Appearance = wp.Backbone.View.extend({
 		// Render and append after screen title.
 		view.render();
 		this.searchContainer
+<<<<<<< HEAD
 			.append( $.parseHTML( '<label for="wp-filter-search-input">' + l10n.search + '</label>' ) )
 			.append( view.el )
 			.on( 'submit', function( event ) {
 				event.preventDefault();
 			});
+=======
+			.find( '.search-box' )
+			.append( $.parseHTML( '<label for="wp-filter-search-input">' + l10n.search + '</label>' ) )
+			.append( view.el );
+
+		this.searchContainer.on( 'submit', function( event ) {
+			event.preventDefault();
+		});
+>>>>>>> 7e57a7c (first commit)
 	},
 
 	// Checks when the user gets close to the bottom

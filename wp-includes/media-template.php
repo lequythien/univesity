@@ -840,7 +840,11 @@ function wp_print_media_templates() {
 						<?php esc_html_e( 'Right' ); ?>
 					</option>
 					<option value="none" selected>
+<<<<<<< HEAD
 						<?php esc_html_x( 'None', 'Alignment' ); ?>
+=======
+						<?php echo esc_html_x( 'None', 'Alignment option' ); ?>
+>>>>>>> 7e57a7c (first commit)
 					</option>
 				</select>
 			</span>
@@ -867,7 +871,11 @@ function wp_print_media_templates() {
 				<option value="file">
 			<# } else { #>
 				<option value="none" selected>
+<<<<<<< HEAD
 					<?php esc_html_x( 'None', 'Embedded player type' ); ?>
+=======
+					<?php echo esc_html_x( 'None', 'Media item link option' ); ?>
+>>>>>>> 7e57a7c (first commit)
 				</option>
 				<option value="file">
 			<# } #>
@@ -952,7 +960,11 @@ function wp_print_media_templates() {
 					<?php esc_html_e( 'Media File' ); ?>
 				</option>
 				<option value="none" <# if ( 'none' === wp.media.galleryDefaults.link ) { #>selected="selected"<# } #>>
+<<<<<<< HEAD
 					<?php esc_html_x( 'None', 'Media link target' ); ?>
+=======
+					<?php echo esc_html_x( 'None', 'Media item link option' ); ?>
+>>>>>>> 7e57a7c (first commit)
 				</option>
 			</select>
 		</span>
@@ -1096,7 +1108,11 @@ function wp_print_media_templates() {
 						<?php esc_html_e( 'Right' ); ?>
 					</button>
 					<button class="button active" value="none">
+<<<<<<< HEAD
 						<?php esc_html_x( 'None', 'Alignment' ); ?>
+=======
+						<?php echo esc_html_x( 'None', 'Alignment option' ); ?>
+>>>>>>> 7e57a7c (first commit)
 					</button>
 				</span>
 			</span>
@@ -1113,7 +1129,11 @@ function wp_print_media_templates() {
 						<?php esc_html_e( 'Custom URL' ); ?>
 					</button>
 					<button class="button active" value="none">
+<<<<<<< HEAD
 						<?php esc_html_x( 'None', 'Media URL' ); ?>
+=======
+						<?php echo esc_html_x( 'None', 'Media item link option' ); ?>
+>>>>>>> 7e57a7c (first commit)
 					</button>
 				</span>
 			</span>
@@ -1160,7 +1180,11 @@ function wp_print_media_templates() {
 									<?php esc_html_e( 'Right' ); ?>
 								</button>
 								<button class="button active" value="none">
+<<<<<<< HEAD
 									<?php esc_html_x( 'None', 'Alignment' ); ?>
+=======
+									<?php echo esc_html_x( 'None', 'Alignment option' ); ?>
+>>>>>>> 7e57a7c (first commit)
 								</button>
 							</span>
 						</span>
@@ -1236,7 +1260,11 @@ function wp_print_media_templates() {
 								<?php esc_html_e( 'Custom URL' ); ?>
 							</option>
 							<option value="none">
+<<<<<<< HEAD
 								<?php esc_html_x( 'None', 'Media URL' ); ?>
+=======
+								<?php echo esc_html_x( 'None', 'Media item link option' ); ?>
+>>>>>>> 7e57a7c (first commit)
 							</option>
 						</select>
 					</span>
@@ -1356,7 +1384,11 @@ function wp_print_media_templates() {
 						<span class="button-group button-large" data-setting="preload">
 							<button class="button" value="auto"><?php _ex( 'Auto', 'auto preload' ); ?></button>
 							<button class="button" value="metadata"><?php _e( 'Metadata' ); ?></button>
+<<<<<<< HEAD
 							<button class="button active" value="none"><?php _x( 'None', 'Preload type' ); ?></button>
+=======
+							<button class="button active" value="none"><?php _ex( 'None', 'Preload value' ); ?></button>
+>>>>>>> 7e57a7c (first commit)
 						</span>
 					</span>
 				</fieldset>
@@ -1455,7 +1487,11 @@ function wp_print_media_templates() {
 						<span class="button-group button-large" data-setting="preload">
 							<button class="button" value="auto"><?php _ex( 'Auto', 'auto preload' ); ?></button>
 							<button class="button" value="metadata"><?php _e( 'Metadata' ); ?></button>
+<<<<<<< HEAD
 							<button class="button active" value="none"><?php _x( 'None', 'Preload type' ); ?></button>
+=======
+							<button class="button active" value="none"><?php _ex( 'None', 'Preload value' ); ?></button>
+>>>>>>> 7e57a7c (first commit)
 						</span>
 					</span>
 				</fieldset>

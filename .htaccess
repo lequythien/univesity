@@ -4,11 +4,19 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+<<<<<<< HEAD
 RewriteBase /university/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /university/index.php [L]
+=======
+RewriteBase /thaytung_university/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /thaytung_university/index.php [L]
+>>>>>>> 7e57a7c (first commit)
 </IfModule>
 
 # END WordPress

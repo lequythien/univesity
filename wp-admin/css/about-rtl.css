@@ -408,10 +408,21 @@
 .about__container h2,
 .about__container h3,
 .about__container h4 {
+<<<<<<< HEAD
 	text-wrap: balance;
 	color: inherit;
 }
 
+=======
+	text-wrap: pretty;
+	color: inherit;
+}
+
+.about__container :is(h1, h2, h3, h4):lang(en) {
+	text-wrap: balance;
+}
+
+>>>>>>> 7e57a7c (first commit)
 .about__container p {
 	text-wrap: pretty;
 }

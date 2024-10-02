@@ -1562,6 +1562,13 @@ function inject_ignored_hooked_blocks_metadata_attributes( $changes, $deprecated
 		_deprecated_argument( __FUNCTION__, '6.5.3' );
 	}
 
+<<<<<<< HEAD
+=======
+	if ( ! isset( $changes->post_content ) ) {
+		return $changes;
+	}
+
+>>>>>>> 7e57a7c (first commit)
 	$hooked_blocks = get_hooked_blocks();
 	if ( empty( $hooked_blocks ) && ! has_filter( 'hooked_block_types' ) ) {
 		return $changes;

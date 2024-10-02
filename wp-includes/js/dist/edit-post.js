@@ -2557,8 +2557,13 @@ function usePaddingAppender() {
       const {
         defaultView
       } = ownerDocument;
+<<<<<<< HEAD
       const paddingBottom = defaultView.parseInt(defaultView.getComputedStyle(node).paddingBottom, 10);
       if (!paddingBottom) {
+=======
+      const pseudoHeight = defaultView.parseInt(defaultView.getComputedStyle(node, ':after').height, 10);
+      if (!pseudoHeight) {
+>>>>>>> 7e57a7c (first commit)
         return;
       }
 
@@ -2571,6 +2576,7 @@ function usePaddingAppender() {
       if (event.clientY < lastChildRect.bottom) {
         return;
       }
+<<<<<<< HEAD
       event.preventDefault();
       const blockOrder = registry.select(external_wp_blockEditor_namespaceObject.store).getBlockOrder('');
       const lastBlockClientId = blockOrder[blockOrder.length - 1];
@@ -2579,12 +2585,21 @@ function usePaddingAppender() {
       if (!lastBlockClientId) {
         return;
       }
+=======
+      event.stopPropagation();
+      const blockOrder = registry.select(external_wp_blockEditor_namespaceObject.store).getBlockOrder('');
+      const lastBlockClientId = blockOrder[blockOrder.length - 1];
+>>>>>>> 7e57a7c (first commit)
       const lastBlock = registry.select(external_wp_blockEditor_namespaceObject.store).getBlock(lastBlockClientId);
       const {
         selectBlock,
         insertDefaultBlock
       } = registry.dispatch(external_wp_blockEditor_namespaceObject.store);
+<<<<<<< HEAD
       if ((0,external_wp_blocks_namespaceObject.isUnmodifiedDefaultBlock)(lastBlock)) {
+=======
+      if (lastBlock && (0,external_wp_blocks_namespaceObject.isUnmodifiedDefaultBlock)(lastBlock)) {
+>>>>>>> 7e57a7c (first commit)
         selectBlock(lastBlockClientId);
       } else {
         insertDefaultBlock();
@@ -2701,7 +2716,10 @@ function useEditorStyles() {
     hasThemeStyleSupport,
     editorSettings,
     isZoomedOutView,
+<<<<<<< HEAD
     hasMetaBoxes,
+=======
+>>>>>>> 7e57a7c (first commit)
     renderingMode,
     postType
   } = (0,external_wp_data_namespaceObject.useSelect)(select => {
@@ -2717,7 +2735,10 @@ function useEditorStyles() {
       hasThemeStyleSupport: select(store).isFeatureActive('themeStyles'),
       editorSettings: select(external_wp_editor_namespaceObject.store).getEditorSettings(),
       isZoomedOutView: __unstableGetEditorMode() === 'zoom-out',
+<<<<<<< HEAD
       hasMetaBoxes: select(store).hasMetaBoxes(),
+=======
+>>>>>>> 7e57a7c (first commit)
       renderingMode: getRenderingMode(),
       postType: _postType
     };
@@ -2747,6 +2768,7 @@ function useEditorStyles() {
     }
     const baseStyles = hasThemeStyles ? (_editorSettings$style3 = editorSettings.styles) !== null && _editorSettings$style3 !== void 0 ? _editorSettings$style3 : [] : defaultEditorStyles;
 
+<<<<<<< HEAD
     // Add a constant padding for the typewriter effect. When typing at the
     // bottom, there needs to be room to scroll up.
     if (!isZoomedOutView && !hasMetaBoxes && renderingMode === 'post-only' && !DESIGN_POST_TYPES.includes(postType)) {
@@ -2754,6 +2776,13 @@ function useEditorStyles() {
         // Should override global styles padding, so ensure 0-1-0
         // specificity.
         css: ':root :where(body){padding-bottom: 40vh}'
+=======
+    // Add a space for the typewriter effect. When typing in the last block,
+    // there needs to be room to scroll up.
+    if (!isZoomedOutView && renderingMode === 'post-only' && !DESIGN_POST_TYPES.includes(postType)) {
+      return [...baseStyles, {
+        css: ':root :where(.editor-styles-wrapper)::after {content: ""; display: block; height: 40vh;}'
+>>>>>>> 7e57a7c (first commit)
       }];
     }
     return baseStyles;

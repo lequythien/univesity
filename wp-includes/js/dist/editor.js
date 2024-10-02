@@ -5946,7 +5946,11 @@ const getPostIcon = (0,external_wp_data_namespaceObject.createRegistrySelector)(
     // `icon` is the `menu_icon` property of a post type. We
     // only handle `dashicons` for now, even if the `menu_icon`
     // also supports urls and svg as values.
+<<<<<<< HEAD
     if (postTypeEntity?.icon?.startsWith('dashicons-')) {
+=======
+    if (typeof postTypeEntity?.icon === 'string' && postTypeEntity.icon.startsWith('dashicons-')) {
+>>>>>>> 7e57a7c (first commit)
       return postTypeEntity.icon.slice(10);
     }
     return library_page;
@@ -26000,12 +26004,22 @@ function usePostActions({
     postTypeObject,
     resource,
     cachedCanUserResolvers,
+<<<<<<< HEAD
     userCanCreatePostType
+=======
+    userCanCreatePostType,
+    isBlockBasedTheme
+>>>>>>> 7e57a7c (first commit)
   } = (0,external_wp_data_namespaceObject.useSelect)(select => {
     const {
       getPostType,
       getCachedResolvers,
+<<<<<<< HEAD
       canUser
+=======
+      canUser,
+      getCurrentTheme
+>>>>>>> 7e57a7c (first commit)
     } = select(external_wp_coreData_namespaceObject.store);
     const _postTypeObject = getPostType(postType);
     const _resource = _postTypeObject?.rest_base || '';
@@ -26013,7 +26027,12 @@ function usePostActions({
       postTypeObject: _postTypeObject,
       resource: _resource,
       cachedCanUserResolvers: getCachedResolvers()?.canUser,
+<<<<<<< HEAD
       userCanCreatePostType: canUser('create', _resource)
+=======
+      userCanCreatePostType: canUser('create', _resource),
+      isBlockBasedTheme: getCurrentTheme()?.is_block_theme
+>>>>>>> 7e57a7c (first commit)
     };
   }, [postType]);
   const trashPostActionForPostType = useTrashPostAction(resource);
@@ -26029,7 +26048,11 @@ function usePostActions({
     if (!isLoaded) {
       return [];
     }
+<<<<<<< HEAD
     let actions = [postTypeObject?.viewable && viewPostAction, supportsRevisions && postRevisionsAction,  false ? 0 : false, isTemplateOrTemplatePart && userCanCreatePostType && duplicateTemplatePartAction, isPattern && userCanCreatePostType && duplicatePatternAction, supportsTitle && renamePostActionForPostType, isPattern && exportPatternAsJSONAction, isTemplateOrTemplatePart ? resetTemplateAction : restorePostActionForPostType, isTemplateOrTemplatePart || isPattern ? deletePostAction : trashPostActionForPostType, !isTemplateOrTemplatePart && permanentlyDeletePostActionForPostType].filter(Boolean);
+=======
+    let actions = [postTypeObject?.viewable && viewPostAction, supportsRevisions && postRevisionsAction,  false ? 0 : false, isTemplateOrTemplatePart && userCanCreatePostType && isBlockBasedTheme && duplicateTemplatePartAction, isPattern && userCanCreatePostType && duplicatePatternAction, supportsTitle && renamePostActionForPostType, isPattern && exportPatternAsJSONAction, isTemplateOrTemplatePart ? resetTemplateAction : restorePostActionForPostType, isTemplateOrTemplatePart || isPattern ? deletePostAction : trashPostActionForPostType, !isTemplateOrTemplatePart && permanentlyDeletePostActionForPostType].filter(Boolean);
+>>>>>>> 7e57a7c (first commit)
     // Filter actions based on provided context. If not provided
     // all actions are returned. We'll have a single entry for getting the actions
     // and the consumer should provide the context to filter the actions, if needed.

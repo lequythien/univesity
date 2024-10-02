@@ -31,6 +31,7 @@
             <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
             <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
             <div class="site-header__menu group">
+<<<<<<< HEAD
                 <?php
                 wp_nav_menu(array(
                     'theme_location' => 'primary_menu',
@@ -39,6 +40,20 @@
 
                 ));
                 ?>
+=======
+                <nav class="main-navigation">
+                    <ul>
+                        <?php
+                        wp_nav_menu(array(
+                            'theme_location' => 'primary_menu',
+                            'container'            => 'nav',
+                            'container_class'      => 'main-navigation',
+
+                        ));
+                        ?>
+                    </ul>
+                </nav>
+>>>>>>> 7e57a7c (first commit)
                 <div class="site-header__util">
                     <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
                     <a href="#" class="btn btn--small btn--dark-orange float-left">Sign Up</a>

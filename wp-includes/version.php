@@ -16,7 +16,11 @@
  *
  * @global string $wp_version
  */
+<<<<<<< HEAD
 $wp_version = '6.6.1';
+=======
+$wp_version = '6.6.2';
+>>>>>>> 7e57a7c (first commit)
 
 /**
  * Holds the WordPress DB revision, increments when changes are made to the WordPress DB schema.
@@ -45,5 +49,8 @@ $required_php_version = '7.2.24';
  * @global string $required_mysql_version
  */
 $required_mysql_version = '5.5.5';
+<<<<<<< HEAD
 
 $wp_local_package = 'vi';
+=======
+>>>>>>> 7e57a7c (first commit)
